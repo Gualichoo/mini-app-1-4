@@ -1,7 +1,8 @@
 console.log('this is working somehow');
 
 import React from 'react';
-// import ReactDOM from 'react-dom';
+import Board from './component/Component1.jsx';
+
 
 
 class App extends React.Component {
@@ -12,11 +13,11 @@ class App extends React.Component {
     }
   }
   render () {
-
-   return (
-     <div>Hello World</div>
-   )
-
+    return (
+   <div className="fourbyfour">
+   <Board />
+   </div>
+    )
   }
 }
 
