@@ -1,7 +1,6 @@
-console.log('this is working somehow');
-
 import React from 'react';
 import Board from './component/Component1.jsx';
+import Functionality from './component/Component2.jsx';
 
 
 
@@ -16,6 +15,7 @@ class App extends React.Component {
     return (
    <div className="fourbyfour">
    <Board />
+   <Functionality />
    </div>
     )
   }
